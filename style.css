@@ -1,0 +1,53 @@
+body {
+	font-family: courier;	
+}
+
+.parent
+{
+	width:100%;
+	padding:0px;
+}
+
+.body
+{
+	float:right;
+	width:80%;
+	box-sizing:border-box;
+	padding:5px;
+	border:#afafaf solid 1px;
+	min-height:75vh;
+
+	font-size:14px;
+	overflow:hidden;
+}
+
+.sidebar
+{
+	float:left;
+	width:20%;
+	box-sizing:border-box;
+	padding:5px;
+	border:#afafaf solid 1px;
+	min-height:96vh;
+}
+
+.sitemap {
+	line-height:0.0;
+}
+
+.centered {
+	text-align:center;
+}
+
+.topbar
+{
+	float:right;
+	width:80%;
+	height:5%;
+	box-sizing:border-box;
+	border:#afafaf solid 1px;
+	text-align:center;
+	background-image:radial-gradient(black, rgba(0,0,0,0));
+	color:white;
+}
+
