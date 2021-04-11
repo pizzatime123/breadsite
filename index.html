@@ -16,6 +16,11 @@
 					<p>↳/links/</p>
 					<p>↳/posts/</p>
 					<p>&nbsp;&nbsp;↳<a href="posts/firstpost.html">firstpost.html</a></p>
+					<?php
+						foreach (glob(/posts/*.html) as $filename) {
+							echo "<p>&nbsp;&nbsp;↳<a href=\"posts/$filename\">$filename</a></p>"
+						}
+					?>
 				</span>
 			</div>
 			<div class="topbar">	
