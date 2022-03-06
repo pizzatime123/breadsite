@@ -12,8 +12,10 @@ body {
 		"side main main main"
 		"side footer footer footer";
 
-	width: 98vw;
+	padding: 0;
+	margin: 0;
 	height: 98vh;
+	overflow:hidden;
 }
 .side { 
 	grid-area: side; 
@@ -21,6 +23,8 @@ body {
 	box-sizing:border-box;
 	padding:5px;
 	border:#afafaf solid 1px;
+
+	position:relative;
 }
 .top { 
 	grid-area: top; 
@@ -40,7 +44,7 @@ body {
 
 	font-size:14px;
 	overflow:hidden;
-
+	overflow-x:scroll;
 }
 .footer { grid-area: footer; }
 
@@ -52,3 +56,8 @@ body {
 	text-align:center;
 }
 
+#sticker {
+	position:absolute;
+	bottom:0;
+	text-align:center;
+}
